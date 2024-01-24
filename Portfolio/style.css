@@ -34,6 +34,7 @@ i.fa-solid {
   font-size: 2.3rem;
   cursor: pointer;
   display: none;
+  z-index: 5;
 }
 
 i.fa-solid:hover {
