@@ -7,5 +7,5 @@ var closeIcon = document.getElementById("closeIcon");
       }
 
       function closemenu() {
-        sidemenu.classList.remove("active");
+        closeIcon.style.display = "none";
       }

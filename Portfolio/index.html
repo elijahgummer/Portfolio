@@ -19,23 +19,22 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><i  class="fa-solid fa-bars" onclick="openmenu()"></i></li>
-            <li><i  id="closeIcon" class="fa-solid fa-xmark" onclick="closemenu()"></i></li>
+  
           </ul>
         </nav>
+        <div class="mobile-nav open-menu">
+          <span>
+            <i  id="closeIcon" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </span>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#home">Projects</a></li>
+            <li><a href="#home">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-
-    <script>
-      var sidemenu = document.getElementById("sidemenu");
-
-      function openmenu() {
-        sidemenu.classList.add("active");
-      }
-
-      function closemenu() {
-        sidemenu.classList.remove("active");
-      }
-    </script>
 
 <script
 src="https://kit.fontawesome.com/e67d778e8a.js"
