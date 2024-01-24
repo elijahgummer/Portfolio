@@ -30,13 +30,13 @@ nav ul {
   gap: 2rem;
 }
 
-.fa-solid {
+i.fa-solid {
   font-size: 2.3rem;
   cursor: pointer;
   display: none;
 }
 
-.fa-solid:hover {
+i.fa-solid:hover {
   color: #147efb;
   transition: all 0.3s;
 }
@@ -49,12 +49,12 @@ nav ul a {
   transition: all 0.23s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 300px) {
   nav {
     padding: 25px 30px 25px 30px;
   }
 
-  .fa-solid {
+  i.fa-solid.fa-xmark {
     display: block;
     font-size: 25px;
   }
@@ -72,8 +72,8 @@ nav ul a {
   }
 
   nav ul.active {
-    right: 0;
-  }
+    right: 0; /* Display on the screen */
+}
 
   nav ul li {
     display: block;
@@ -93,7 +93,7 @@ nav ul a {
     display: none;
   }
 
-  .fa-solid {
+  i.fa-solid.fa-bars {
     display: block;
     font-size: 25px;
     margin-right: 20px;

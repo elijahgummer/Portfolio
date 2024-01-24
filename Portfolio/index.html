@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elijah Gummer | Front-end Developer</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div id="header">
-    <div class="container">
-      <nav>
-        <h3 class="logo">Elijah.dev</h3>
-        <ul id="sidemenu">
-          <li><a href="#header">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><i class="fa-solid fa-bars" onclick="toggleMenu()"></i></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elijah Gummer | Front-end Developer</title>
+    
 
-  <script src="script.js"></script>
-  <script src="https://kit.fontawesome.com/e67d778e8a.js" crossorigin="anonymous"></script>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h3 class="logo">Elijah.dev</h3>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><i  class="fa-solid fa-bars" onclick="openmenu()"></i></li>
+            <li><i  class="fa-solid fa-xmark" onclick="closemenu()"></i></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.classList.add("active");
+      }
+
+      function closemenu() {
+        sidemenu.classList.remove("active");
+      }
+    </script>
+
+<script
+src="https://kit.fontawesome.com/e67d778e8a.js"
+crossorigin="anonymous"
+></script>
+  </body>
 </html>
