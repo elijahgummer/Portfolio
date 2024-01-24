@@ -54,7 +54,7 @@ nav ul a {
     padding: 25px 30px 25px 30px;
   }
 
-  .fa-solid .fa-bars {
+  .fa-solid {
     display: block;
     font-size: 25px;
   }
@@ -72,8 +72,8 @@ nav ul a {
   }
 
   nav ul.active {
-    right: 0; /* Display on the screen */
-}
+    right: 0;
+  }
 
   nav ul li {
     display: block;
