@@ -120,12 +120,17 @@ nav ul li a:hover {
   background-color: white;
   position: fixed;
   top: 0;
-  left: 0;
   text-align: center;
   align-items: center;
   justify-content: center;
   display: none;
+  left: -100% !important;
   transition: all 0.3s ease-in-out;
+}
+
+
+.open-menu {
+  left: 0 !important;
 }
 
 
