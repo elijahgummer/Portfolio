@@ -59,15 +59,6 @@ body {
   transition: all 0.3s;
 }
 
-.menu-list li a{
-  color: #000000;
-  font-size: 18px;
-  font-weight: 500;
-  margin-left: 25px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
 .navbar ul a {
   color: #2d2e32;
   text-decoration: none;
@@ -164,7 +155,8 @@ body {
   .navbar .menu-list {
     position: fixed;
     height: 100vh;
-    width: 200px; /* Adjust the width as needed */
+    width: 100%;
+    max-width: 100%;
     left: -100%;
     top: 0px;
     display: block;
