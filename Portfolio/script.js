@@ -1,11 +1,12 @@
-var sidemenu = document.getElementById("sidemenu");
-var closeIcon = document.getElementById("closeIcon");
-
-
-function openmenu() {
-  sidemenu.classList.add("open-menu");
-}
-
-function closemenu() {
-  sidemenu.classList.remove("open-menu");
-}
+const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      
+    }
+    cancelBtn.onclick = ()=>{
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }

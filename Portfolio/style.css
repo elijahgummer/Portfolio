@@ -5,11 +5,28 @@
   box-sizing: border-box;
 }
 
+/* Custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::selection {
+  background: rgba(0, 123, 255, 0.3);
+}
+
 body {
   background: #f9f9f9;
 }
 
-nav {
+.navbar {
   font-size: 1.7rem;
   width: 100%;
   height: auto;
@@ -17,32 +34,41 @@ nav {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  background-color: #ffff;
+  background-color: #fff;
   top: 0;
   left: 0;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
   align-items: center;
 }
 
-nav ul {
+.navbar ul {
   display: flex;
   list-style: none;
   gap: 2rem;
 }
 
-i.fa-solid {
-  font-size: 2.3rem;
+.icon {
+  color: #000000;
+  font-size: 20px;
   cursor: pointer;
   display: none;
-  z-index: 5;
 }
 
-i.fa-solid:hover {
+.icon:hover {
   color: #147efb;
   transition: all 0.3s;
 }
 
-nav ul a {
+.menu-list li a{
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navbar ul a {
   color: #2d2e32;
   text-decoration: none;
   font-size: 17px;
@@ -50,17 +76,17 @@ nav ul a {
   transition: all 0.23s;
 }
 
-@media (max-width: 300px) {
-  nav {
+@media (max-width: 768px) {
+  .navbar {
     padding: 25px 30px 25px 30px;
   }
 
-  i.fa-solid.fa-xmark {
+  .icon.fa-xmark {
     display: block;
     font-size: 25px;
   }
 
-  nav ul {
+  .navbar ul {
     background: #fe0000;
     position: fixed;
     top: 0;
@@ -72,16 +98,16 @@ nav ul a {
     transition: right 0.5s;
   }
 
-  nav ul.active {
-    right: 0; /* Display on the screen */
-}
+  .navbar ul.active {
+    right: 0;
+  }
 
-  nav ul li {
+  .navbar ul li {
     display: block;
     margin: 25px;
   }
 
-  nav ul .fa-solid {
+  .navbar ul .fa-solid {
     position: absolute;
     top: 25px;
     left: 25px;
@@ -90,18 +116,18 @@ nav ul a {
 }
 
 @media (max-width: 900px) {
-  nav ul a {
+  .navbar ul a {
     display: none;
   }
 
-  i.fa-solid.fa-bars {
+  .icon.fa-bars {
     display: block;
     font-size: 25px;
     margin-right: 20px;
   }
 }
 
-nav ul li a:hover {
+.navbar ul li a:hover {
   color: #147efb;
 }
 
@@ -112,55 +138,57 @@ nav ul li a:hover {
   font-weight: 800;
 }
 
-.mobile-nav {
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  z-index: 300;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  display: none;
-  left: -100% !important;
-  transition: all 0.3s ease-in-out;
-}
-
-
-.open-menu {
-  left: 0 !important;
-}
-
-
-.mobile-nav span .fa-solid {
-  font-size: 3.3rem;
-  position: absolute;
-  top: 2rem;
-  right: 4rem;
-  cursor: pointer;
-}
-.mobile-nav span .fa-solid:hover {
-  color: #147efb;
-  transition: all 0.3s;
-}
-
-.mobile-nav ul {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  font-size: 2.3rem;
+.menu-list li {
   list-style: none;
 }
 
-.mobile-nav ul a {
-  color: black;
-  text-decoration: none;
-  font-weight: 500;
+.menu-list .cancel-btn {
+  position: absolute;
+  right: 30px;
+  top: 20px;
 }
 
-.mobile-nav ul a:hover {
-  color: #147efb;
-  transition: all 0.3s;
+@media (max-width: 868px) {
+  body.disabled {
+    overflow: hidden;
+  }
+
+  .icon {
+    display: block;
+  }
+
+  .icon.hide {
+    display: none;
+  }
+
+  .navbar .menu-list {
+    position: fixed;
+    height: 100vh;
+    width: 200px; /* Adjust the width as needed */
+    left: -100%;
+    top: 0px;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background: #ffffff;
+    transition: all 0.3s ease;
+  }
+
+  .navbar.show .menu-list {
+    left: 0%;
+  }
+
+  .navbar .menu-list li {
+    margin-top: 45px;
+  }
+
+  .navbar .menu-list li a {
+    font-size: 23px;
+    margin-left: -100%;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .navbar.show .menu-list li a {
+    margin-left: 0px;
+  }
 }
