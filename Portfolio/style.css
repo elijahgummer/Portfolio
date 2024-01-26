@@ -30,7 +30,7 @@ body {
   font-size: 1.7rem;
   width: 100%;
   height: auto;
-  padding: 25px 10px 25px 50px;
+  padding: 25px 80px 25px 50px;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -47,9 +47,36 @@ body {
   gap: 2rem;
 }
 
+.navbar ul a {
+  color: #2d2e32;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  transition: all 0.23s;
+  margin: -5px;
+}
+
+.navbar ul li {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .menu-list{
+  display: inline-flex;
+
+}
+.menu-list li{
+  list-style: none;
+}
+
+.menu-list li a:hover{
+  color: #007bff;
+}
+
+
 .icon {
   color: #000000;
-  font-size: 20px;
+  font-size: 24px;
   cursor: pointer;
   display: none;
 }
@@ -59,68 +86,12 @@ body {
   transition: all 0.3s;
 }
 
-.navbar ul a {
-  color: #2d2e32;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: 600;
-  transition: all 0.23s;
+.menu-list .cancel-btn{
+  position: absolute;
+  right: 30px;
+  top: 20px;
 }
 
-@media (max-width: 768px) {
-  .navbar {
-    padding: 25px 30px 25px 30px;
-  }
-
-  .icon.fa-xmark {
-    display: block;
-    font-size: 25px;
-  }
-
-  .navbar ul {
-    background: #fe0000;
-    position: fixed;
-    top: 0;
-    right: -200px;
-    width: 200px;
-    height: 100vh;
-    padding-top: 50px;
-    z-index: 2;
-    transition: right 0.5s;
-  }
-
-  .navbar ul.active {
-    right: 0;
-  }
-
-  .navbar ul li {
-    display: block;
-    margin: 25px;
-  }
-
-  .navbar ul .fa-solid {
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
-  }
-}
-
-@media (max-width: 900px) {
-  .navbar ul a {
-    display: none;
-  }
-
-  .icon.fa-bars {
-    display: block;
-    font-size: 25px;
-    margin-right: 20px;
-  }
-}
-
-.navbar ul li a:hover {
-  color: #147efb;
-}
 
 .logo {
   color: #2d2e32;
@@ -129,15 +100,6 @@ body {
   font-weight: 800;
 }
 
-.menu-list li {
-  list-style: none;
-}
-
-.menu-list .cancel-btn {
-  position: absolute;
-  right: 30px;
-  top: 20px;
-}
 
 @media (max-width: 868px) {
   body.disabled {
@@ -159,7 +121,10 @@ body {
     max-width: 100%;
     left: -100%;
     top: 0px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 40px 0;
     text-align: center;
     background: #ffffff;
@@ -171,7 +136,7 @@ body {
   }
 
   .navbar .menu-list li {
-    margin-top: 45px;
+    margin: 10px;
   }
 
   .navbar .menu-list li a {
