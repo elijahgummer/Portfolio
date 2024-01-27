@@ -172,3 +172,22 @@
   font-family: 'Mulish', sans-serif;
   color: #555555;
 }
+
+.github svg {
+  width: 32px;
+  height: 32px;
+  transition: color 0.5s;
+}
+.github svg:hover {
+  color: #007bff;
+}
+
+.linkedin svg {
+  width: 32px;
+  height: 32px;
+  transition: color 0.5s;
+}
+
+.linkedin svg path:hover {
+  color: #007bff;
+}
