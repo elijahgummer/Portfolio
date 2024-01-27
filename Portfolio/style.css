@@ -22,10 +22,6 @@
   background: rgba(0, 123, 255, 0.3);
 }
 
-body {
-  background: #f9f9f9;
-}
-
 .navbar {
   font-size: 1.7rem;
   width: 100%;
@@ -148,4 +144,23 @@ body {
   .navbar.show .menu-list li a {
     margin-left: 0px;
   }
+}
+
+/* About Page */
+
+#about .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the container to the full viewport height */
+}
+
+#about .content {
+  text-align: center;
+}
+
+#about .header-text {
+  font-size: 50px;
+  z-index: 6;
+  display: block;
 }
