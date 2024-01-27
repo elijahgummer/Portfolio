@@ -150,9 +150,10 @@
 
 #about .container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh; /* Set the height of the container to the full viewport height */
+  margin: 20px;
 }
 
 #about .content {
@@ -160,7 +161,14 @@
 }
 
 #about .header-text {
-  font-size: 50px;
-  z-index: 6;
+  font-size: 55px;
   display: block;
+  color: #2d2e32;
+  font-weight: 800;
+}
+
+#about .about-text {
+  font-size: 18px;
+  font-family: 'Mulish', sans-serif;
+  color: #555555;
 }
