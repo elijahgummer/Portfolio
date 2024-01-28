@@ -190,7 +190,7 @@
   justify-content: flex-end;
   align-items: center;
   flex-grow: 1;
-  margin: 0; /* Remove any default margin */
+  margin: 80px 10px 0 100px; /* Remove any default margin */
 }
 
 .profile-pic {
