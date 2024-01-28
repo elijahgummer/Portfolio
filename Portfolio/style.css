@@ -148,18 +148,9 @@
 
 /* About Page */
 
-#about .container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100vh; /* Set the height of the container to the full viewport height */
-  margin: 20px;
-
-}
-
 #about .content {
   text-align: center;
-
+  margin: 20px;
 }
 
 #about .header-text {
@@ -196,6 +187,26 @@
 
 .image-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  flex-grow: 1;
+  margin: 0; /* Remove any default margin */
+}
+
+.profile-pic {
+  max-width: 100%;
+  height: auto;
+}
+
+#about .container {
+  display: flex;
+  flex-direction: column; /* Ensure a column layout */
+  align-items: center; /* Center content horizontally */
+}
+
+#about .landing-main {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between; /* Make sure the children elements are spaced evenly */
 }
