@@ -156,17 +156,23 @@
 }
 
 
+
 #about .header-text {
   font-size: 55px;
   display: block;
   color: #2d2e32;
   font-weight: 800;
+  margin: 15px;
 }
 
 #about .about-text {
   font-size: 18px;
   font-family: 'Mulish', sans-serif;
   color: #555555;
+}
+
+#about .iconsContact {
+  margin: 15px;
 }
 
 .github svg {
