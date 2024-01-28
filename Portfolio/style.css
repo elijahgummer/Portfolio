@@ -154,10 +154,12 @@
   align-items: center;
   height: 100vh; /* Set the height of the container to the full viewport height */
   margin: 20px;
+
 }
 
 #about .content {
   text-align: center;
+
 }
 
 #about .header-text {
@@ -190,4 +192,10 @@
 
 .linkedin svg path:hover {
   color: #007bff;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
