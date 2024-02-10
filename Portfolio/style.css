@@ -220,3 +220,11 @@
   flex-direction: row;
   justify-content: space-between; /* Make sure the children elements are spaced evenly */
 }
+
+#about .sub-content {
+  display: flex;
+}
+
+#about .waving {
+  margin: 20px;
+}
