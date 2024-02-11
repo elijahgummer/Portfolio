@@ -251,6 +251,7 @@ span a {
   height: 45px;
   width: 110px;
   margin: 10px;
+  transition: all ease-in-out 0.5s;
 }
 
 #header .stack-container {
@@ -279,4 +280,8 @@ span a {
   margin-right: 40px;
   margin-left: 0; /* Adjust the margin as needed */
   color: #2d2e32;
+}
+
+#header .tech-image:hover {
+  transform: translateY(-0.7rem);
 }
