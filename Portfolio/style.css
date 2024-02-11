@@ -298,3 +298,10 @@ span a {
   height: 600px;
   padding: 20px
 }
+
+#about .user-image {
+  width: 410px;
+  height: 350px;
+  border-radius: 17px;
+  margin: 35px;
+}
