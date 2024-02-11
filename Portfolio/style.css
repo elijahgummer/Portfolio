@@ -148,16 +148,15 @@
 
 /* About Page */
 
-#about .content {
-}
 
-#about .about-text{
+
+#header .header-text{
   margin: 15px;
 }
 
 
 
-#about .header-text {
+#header .header-text {
   font-size: 55px;
   display: block;
   color: #2d2e32;
@@ -165,13 +164,13 @@
   margin: 15px;
 }
 
-#about .about-text {
+#header .head-text {
   font-size: 18px;
   font-family: 'Mulish', sans-serif;
   color: #555555;
 }
 
-#about .iconsContact {
+span.iconsContact {
   margin: 15px;
 }
 
@@ -207,24 +206,24 @@
   height: auto;
 }
 
-#about .container {
+#header .container {
   display: flex;
   flex-direction: column; /* Ensure a column layout */
   align-items: center; /* Center content horizontally */
   margin-top: 20px;
 }
 
-#about .landing-main {
+#header .landing-main {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between; /* Make sure the children elements are spaced evenly */
 }
 
-#about .sub-content {
+#header .sub-content {
   display: flex;
 }
 
-#about .waving {
+#header .waving {
   margin: 20px;
 }
