@@ -147,14 +147,9 @@
 }
 
 /* About Page */
-
-
-
 #header .header-text{
   margin: 15px;
 }
-
-
 
 #header .header-text {
   font-size: 55px;
@@ -170,26 +165,26 @@
   color: #555555;
 }
 
-span.iconsContact {
+.iconsContact {
   margin: 15px;
 }
 
-.github svg {
+.github {
   width: 32px;
   height: 32px;
   transition: color 0.5s;
 }
-.github svg:hover {
+.github:hover {
   color: #007bff;
 }
 
-.linkedin svg {
+.linkedin i{
   width: 32px;
   height: 32px;
   transition: color 0.5s;
 }
 
-.linkedin svg path:hover {
+.linkedin i:hover {
   color: #007bff;
 }
 
