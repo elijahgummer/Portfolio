@@ -256,6 +256,22 @@ span a {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  margin:;
+  flex-direction: row;  
+}
+
+#header .stack-container p {
+  margin-right: 1.5rem;
+  padding-right: 2rem;
+  border-right: 2px solid rgba(45, 46, 50, 0.5);
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  color: #2d2e32;
+}
+
+#header .tech-stack-header {
+  font-family: 'Mulish', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  margin-right: 40px;
+  color: #2d2e32;
 }
