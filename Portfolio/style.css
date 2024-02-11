@@ -169,22 +169,14 @@
   margin: 15px;
 }
 
-.github {
-  width: 32px;
-  height: 32px;
+.github, .linkedin {
+  color: #2D2E32;
+  font-size: 32px;
   transition: color 0.5s;
-}
-.github:hover {
-  color: #007bff;
+  margin: 5px;
 }
 
-.linkedin i{
-  width: 32px;
-  height: 32px;
-  transition: color 0.5s;
-}
-
-.linkedin i:hover {
+.github:hover, .linkedin:hover {
   color: #007bff;
 }
 
