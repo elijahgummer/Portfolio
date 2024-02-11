@@ -211,6 +211,20 @@
   display: flex;
 }
 
+span {
+  display: flex;
+  gap: 1.3rem;
+  margin: 2.5rem 0;
+  cursor: pointer;
+}
+span a {
+  font-size: 3rem;
+  color: #2d2e32;
+}
+
 #header .waving {
   margin: 20px;
+  width: 5rem;
+  height: 5rem;
+  
 }
