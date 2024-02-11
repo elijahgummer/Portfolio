@@ -148,7 +148,7 @@
 
 /* About Page */
 #header .header-text{
-  margin: 15px;
+margin-top: 45px;
 }
 
 #header .header-text {
@@ -237,4 +237,11 @@ span a {
 .hand-text-content .header-text {
   margin-right: 10px;
   margin-bottom: 0; 
+}
+
+
+
+#header .tech-image {
+  height: 45px;
+  width: 110px;
 }
