@@ -239,9 +239,23 @@ span a {
   margin-bottom: 0; 
 }
 
+#header .tech-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 
+}
 
 #header .tech-image {
   height: 45px;
   width: 110px;
+  margin: 10px;
+}
+
+#header .stack-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin:;
 }
