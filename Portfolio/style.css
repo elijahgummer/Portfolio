@@ -223,8 +223,17 @@ span a {
 }
 
 #header .waving {
-  margin: 20px;
-  width: 5rem;
-  height: 5rem;
-  
+  width: 4rem;
+  height: 4rem;
+  margin-left: 10px;  
+}
+
+.hand-text-content {
+  display: flex;
+  align-items: center;
+}
+
+.hand-text-content .header-text {
+  margin-right: 10px;
+  margin-bottom: 0; 
 }
