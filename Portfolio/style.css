@@ -342,6 +342,13 @@ span a {
 
 /* PROJECTS STYLING */
 
+#projects .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
 #projects .header {
   color: #147efb;
   font-size: 17px;
@@ -357,3 +364,5 @@ span a {
   font-weight: 800;
   line-height: 1.4;
 }
+
+/* CONTACT AREA STYLING */
