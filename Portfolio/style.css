@@ -403,17 +403,13 @@ span a {
 
 #contact-content {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #contact .contact-card {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  margin: 20px;
 }
 
 #contact .content-text {
@@ -444,4 +440,9 @@ span a {
   font-size: 17px;
   font-weight: 800;
   margin: 5px 0 5px 0;
+}
+
+#contact .contact-box {
+  display: flex;
+  flex-direction: row;
 }
