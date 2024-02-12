@@ -442,6 +442,11 @@ span a {
   margin: 5px 0 5px 0;
 }
 
+#contact .email-name {
+  color: #767676;
+  font-family: 'Mulish', sans-serif;
+}
+
 #contact .contact-box {
   display: flex;
   flex-direction: row;
