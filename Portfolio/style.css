@@ -299,9 +299,17 @@ span a {
   padding: 20px
 }
 
+#about .content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 #about .user-image {
   width: 410px;
   height: 350px;
   border-radius: 17px;
   margin: 35px;
 }
+
