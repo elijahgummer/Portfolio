@@ -451,33 +451,34 @@ span a {
 }
 
 /* FOOTER STYLING */
-
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Change to space-between to place items at opposite ends */
   background-color: #2D2E32;
   padding: 50px 0;
+  width: 100%;
 }
 
-.footer .header{
-  color: #ffffff;
-  font-size: 17px;
-}
-
-.footer .container {
-  display: flex;
-  align-items: center;
-}
 
 .footer .footer-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: row;
+  margin: 0 80px 0 80px;
 }
 
-.footer .footer-social a i{
+.footer .header {
+  color: #ffffff;
+  font-size: 17px;
+}
+
+.footer .footer-social {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;;
+}
+
+.footer .footer-social a i {
   color: #ffffff;
   transition: color ease-in-out 0.5s;
 }
