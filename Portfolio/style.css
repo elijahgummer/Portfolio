@@ -404,6 +404,7 @@ span a {
 #contact-content {
   display: flex;
   flex-wrap: wrap;
+  width: 80%;
 }
 
 #contact .contact-card {
