@@ -401,11 +401,6 @@ span a {
   line-height: 1.4;
 }
 
-#contact-content {
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-}
 
 #contact .contact-card {
   display: flex;
