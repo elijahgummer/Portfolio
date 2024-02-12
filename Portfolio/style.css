@@ -412,8 +412,6 @@ span a {
   margin: 10px;
 }
 
-
-
 #contact .bubble {
   background-color: white;
   width: 3.3rem;
@@ -447,5 +445,7 @@ span a {
 
 #contact .contact-box {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
 }
