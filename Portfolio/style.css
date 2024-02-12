@@ -316,6 +316,16 @@ span a {
 #about .header {
   color: #147efb;
   font-size: 17px;
-  margin: 10px;
+  margin: 20px;
+  font-weight: 700;
+}
+
+#about .sub-header {
+  color:#2D2E32;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
