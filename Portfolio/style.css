@@ -453,6 +453,9 @@ span a {
 /* FOOTER STYLING */
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Change to space-between to place items at opposite ends */
   background-color: #2D2E32;
   padding: 50px 0;
 }
@@ -465,5 +468,20 @@ span a {
 .footer .container {
   display: flex;
   align-items: center;
+}
+
+.footer .footer-container {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
+  flex-direction: row;
+}
+
+.footer .footer-social a i{
+  color: #ffffff;
+  transition: color ease-in-out 0.5s;
+}
+
+.footer .footer-social a i:hover {
+  color: #147efb;
 }
