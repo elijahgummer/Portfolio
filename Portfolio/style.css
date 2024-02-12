@@ -336,4 +336,10 @@ span a {
   margin: 20px 20px 35px 20px;
 }
 
+#about .content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
