@@ -337,9 +337,23 @@ span a {
 }
 
 #about .content-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 45px;  
 }
 
+/* PROJECTS STYLING */
 
+#projects .header {
+  color: #147efb;
+  font-size: 17px;
+  margin: 20px;
+  font-weight: 800;
+}
+
+#projects .sub-header {
+  color:#2D2E32;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 20px 35px 20px;
+  font-weight: 800;
+  line-height: 1.4;
+}
