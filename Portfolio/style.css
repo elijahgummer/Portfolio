@@ -456,3 +456,9 @@ span a {
   background-color: #2D2E32;
   padding: 50px 0;
 }
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
