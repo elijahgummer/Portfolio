@@ -401,6 +401,13 @@ span a {
   line-height: 1.4;
 }
 
+#contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
 #contact .contact-card {
   display: flex;
   align-items: center;
@@ -426,4 +433,10 @@ span a {
 #contact .bubble i {
   color: #147efb;
   font-size: 30px;
+}
+
+#contact .email, .location {
+  color:#2D2E32;
+  font-size: 17px;
+  font-weight: 800;
 }
