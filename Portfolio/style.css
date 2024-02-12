@@ -317,15 +317,23 @@ span a {
   color: #147efb;
   font-size: 17px;
   margin: 20px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 #about .sub-header {
   color:#2D2E32;
   font-size: 25px;
   font-family: 'Poppins', sans-serif;
-  margin: 20px;
-  font-weight: 700;
+  margin: 20px 20px 35px 20px;
+  font-weight: 800;
   line-height: 1.4;
 }
+
+#about .content, .sub-content {
+  color: #767676;
+  font-family: 'Mulish', sans-serif;
+  font-size: 17px;
+  margin: 20px 20px 35px 20px;
+}
+
 
