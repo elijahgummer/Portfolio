@@ -451,3 +451,8 @@ span a {
 }
 
 /* FOOTER STYLING */
+
+.footer {
+  background-color: #2D2E32;
+  padding: 50px 0;
+}
