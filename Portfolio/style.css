@@ -457,6 +457,11 @@ span a {
   padding: 50px 0;
 }
 
+.footer .header{
+  color: #ffffff;
+  font-size: 17px;
+}
+
 .footer .container {
   display: flex;
   align-items: center;
