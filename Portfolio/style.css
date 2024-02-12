@@ -442,9 +442,10 @@ span a {
   margin: 5px 0 5px 0;
 }
 
-#contact .email-name {
+#contact .email-name, .location-name {
   color: #767676;
   font-family: 'Mulish', sans-serif;
+  font-size: 17px;
 }
 
 #contact .contact-box {
