@@ -369,6 +369,11 @@ span a {
   font-weight: 800;
   line-height: 1.4;
 }
+#projects .container .content-container .card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 #projects .container .content-container .card {
   background-color: #000000;
@@ -378,12 +383,8 @@ span a {
   border: 1px solid white;
 }
 
-#projects .container .content-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+#projects .container .content-container .card
+
 
 /* CONTACT AREA STYLING */
 
