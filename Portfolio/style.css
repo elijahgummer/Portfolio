@@ -390,7 +390,17 @@ span a {
   color: white;
   font-size: 20px;
   font-weight: 800;
+  margin: 20px;
 }
+
+#projects .card p {
+  color: #e7e7e7;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 10px
+}
+
+
 
 #projects .container .content-container .card img {
   width: 50%;
@@ -400,9 +410,15 @@ span a {
 #projects .container .content-container .card .content{
   color: white;
   text-align: center;
-  width: 50%;
-  height: 100%;
+  width: 50%;;
 }
+
+#projects .container .card .teck-stack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+} 
 
 
 /* CONTACT AREA STYLING */
