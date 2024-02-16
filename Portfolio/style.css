@@ -386,6 +386,12 @@ span a {
   border: 1px solid white;
 }
 
+#projects .card h5 {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+
 #projects .container .content-container .card img {
   width: 50%;
   height: 100%;
