@@ -370,6 +370,14 @@ span a {
   line-height: 1.4;
 }
 
+#projects .container .content-container .card {
+  background-color: #000000;
+  width: 500px;
+  height: 600px;
+  border-radius: 18px;
+  border: 1px solid white;
+}
+
 /* CONTACT AREA STYLING */
 
 #contact .container {
