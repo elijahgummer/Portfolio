@@ -378,6 +378,13 @@ span a {
   border: 1px solid white;
 }
 
+#projects .container .content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 /* CONTACT AREA STYLING */
 
 #contact .container {
