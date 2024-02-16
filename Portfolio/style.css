@@ -384,6 +384,7 @@ span a {
   height: 400px;
   border-radius: 18px;
   border: 1px solid white;
+  margin: 0 10px;
 }
 
 #projects .card h5 {
@@ -408,6 +409,7 @@ span a {
 }
 
 #projects .container .content-container .card .content{
+  display: flex;
   color: white;
   text-align: center;
   width: 50%;;
@@ -416,7 +418,7 @@ span a {
 #projects .container .card .teck-stack {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
 } 
 
