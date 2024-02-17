@@ -416,10 +416,17 @@ span a {
 }
 
 
-#projects .container .content-container .card img {
-  width: 50%;
-  height: 100%;
+#projects .container .content-container .card .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+#projects .container .content-container .card .image-container img {
+  width: 200px;
+  height: 200px;
+}
+
 
 #projects .container .content-container .card .content{
   color: white;
