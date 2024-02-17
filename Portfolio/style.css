@@ -419,12 +419,14 @@ span a {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 50%; /* Adjust the width as needed */
 }
 
 #projects .container .content-container .card .image-container img {
-  width: 200px;
-  height: 200px;
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  max-height: 100%; /* Ensure the image doesn't exceed its container */
 }
+
 
 
 #projects .container .content-container .card .content{
