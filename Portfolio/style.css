@@ -433,6 +433,15 @@ span a {
   width: 50%;
 } 
 
+#projects .container .card .demo-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  list-style: none;
+}
+
+
 
 /* CONTACT AREA STYLING */
 
