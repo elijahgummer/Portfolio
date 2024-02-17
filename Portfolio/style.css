@@ -441,6 +441,12 @@ span a {
   list-style: none;
 }
 
+#projects .container .card .demo-links ul li {
+  font-weight: 500;
+}
+
+
+
 
 
 /* CONTACT AREA STYLING */
