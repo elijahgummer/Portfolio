@@ -451,6 +451,11 @@ span a {
 #projects .container .card .demo-links ul li i {
   margin: 5px;
   font-size: 18px;
+  transition: all ease-in-out 0.5s;
+}
+
+#projects .container .card .demo-links ul li i:hover {
+  color: #147efb;
 }
 
 
