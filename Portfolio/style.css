@@ -462,6 +462,7 @@ background-size: cover;
   justify-content: center;
   flex-direction: row;
   list-style: none;
+  margin: 30px;
 }
 
 #projects .container .card .demo-links ul li {
@@ -474,10 +475,13 @@ background-size: cover;
 #projects .container .card .demo-links ul li i {
   margin: 5px;
   font-size: 18px;
-  transition: all ease-in-out 0.5s;
 }
 
 #projects .container .card .demo-links ul li i:hover {
+  color: #147efb;
+}
+
+#projects .container .card .demo-links ul li:hover {
   color: #147efb;
 }
 
