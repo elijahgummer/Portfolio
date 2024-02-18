@@ -424,12 +424,6 @@ span a {
   overflow: hidden;
 }
 
-#projects .container .content-container .card .image-container img {
-  position: absolute;
-  bottom: 0;
-  transition: transform 0.3s ease;
-}
-
 #projects .container .content-container .card .image-container img:hover {
   transform: translateY(-100%);
 }
