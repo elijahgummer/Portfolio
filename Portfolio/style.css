@@ -231,7 +231,7 @@ span a {
 #header .stack-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: 15px;
@@ -657,9 +657,19 @@ span a {
     flex-direction: column;
   }
 
+  #header .stack-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #header .tech-image {
+    margin-bottom: 30px;
+  }
+
   #header .stack-container p {
     margin-right: 0;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     border-bottom: 2px solid rgba(45, 46, 50, 0.5);
     border-right: none;
     padding-right: 0;
