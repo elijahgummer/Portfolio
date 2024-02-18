@@ -360,16 +360,19 @@ span a {
 
 #projects .sub-header {
   color: #ffffff;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Poppins', sans-serif;
   margin: 20px 20px 35px 20px;
   font-weight: 800;
   line-height: 1.4;
 }
-#projects .container .content-container .card-container {
+
+#projects .container .content-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 #projects .container .content-container .card {
