@@ -418,15 +418,30 @@ span a {
 
 
 #projects .container .content-container .card .image-container {
-  position: relative;
-  width: 200px; /* Adjust as needed */
-  height: 200px; /* Adjust as needed */
-  overflow: hidden;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+
 }
 
-#projects .container .content-container .card .image-container img:hover {
-  transform: translateY(-100%);
+#projects .container .content-container .card .image-container .box {
+  width: 580px;
+  height: 400px;
+  background: #ffffff;
+  background-position: top;
+  transition: ease-in-out 8s;
 }
+
+#projects .container .content-container .card .image-container .box.box1 {
+background: url(lock.jpg); 
+background-size: cover; 
+z-index: 8;
+}
+
+#projects .container .content-container .card .image-container .box {
+  background-position: bottom;
+}
+
 
 
 
