@@ -99,87 +99,6 @@ body {
   font-weight: 800;
 }
 
-
-
-@media (max-width: 868px) {
-  body.disabled {
-    overflow: hidden;
-  }
-
-
-  .content {
-    flex-direction: column;
-    text-align: center;
-    height: auto;
-    gap: 3rem;
-  }
-
-  .profile-pic {
-    width: 28rem;
-    height: 28rem;
-  }
-
-  #header .landing-main {
-    flex-direction: column-reverse;
-  }
-
-  .image-container {
-    margin-bottom: 20px;
-  }
-
-  
-
-
-  span.iconsContact {
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    gap: 1.6rem;
-  }
-  .icon {
-    display: block;
-  }
-
-  .icon.hide {
-    display: none;
-  }
-
-  .navbar .menu-list {
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    max-width: 100%;
-    left: -100%;
-    top: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 40px 0;
-    text-align: center;
-    background: #272727;
-    transition: all 0.3s ease;
-  }
-
-  .navbar.show .menu-list {
-    left: 0%;
-  }
-
-  .navbar .menu-list li {
-    margin: 10px;
-  }
-
-  .navbar .menu-list li a {
-    font-size: 23px;
-    margin-left: -100%;
-    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-
-  .navbar.show .menu-list li a {
-    margin-left: 0px;
-  }
-}
-
 /* header Page */
 
 #header .container {
@@ -189,9 +108,9 @@ body {
 #header .header-text {
   font-size: 55px;
   display: block;
-  color: #ffffff;
   font-weight: 800;
   margin: 15px;
+  color: #ffffff;
   margin-top: 45px;
 }
 
@@ -647,4 +566,88 @@ background-size: cover;
 
 .footer .footer-social a i:hover {
   color: #147efb;
+}
+
+
+/* MOBILE RESPONSIVNESS */
+
+@media (max-width: 868px) {
+  body.disabled {
+    overflow: hidden;
+  }
+
+
+  .content {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    gap: 3rem;
+  }
+
+  .profile-pic {
+    width: 28rem;
+    height: 28rem;
+  }
+
+  #header .landing-main {
+    flex-direction: column-reverse;
+  }
+
+  .image-container {
+    margin-bottom: 20px;
+  }
+
+  #header .header-text {
+    font-size: 40px;
+  }
+
+
+  span.iconsContact {
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    gap: 1.6rem;
+  }
+  .icon {
+    display: block;
+  }
+
+  .icon.hide {
+    display: none;
+  }
+
+  .navbar .menu-list {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    left: -100%;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+    text-align: center;
+    background: #272727;
+    transition: all 0.3s ease;
+  }
+
+  .navbar.show .menu-list {
+    left: 0%;
+  }
+
+  .navbar .menu-list li {
+    margin: 10px;
+  }
+
+  .navbar .menu-list li a {
+    font-size: 23px;
+    margin-left: -100%;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .navbar.show .menu-list li a {
+    margin-left: 0px;
+  }
 }
