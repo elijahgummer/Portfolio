@@ -19,11 +19,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2b2b2b;
+  background: #bcbcbcc0;
 }
 
 ::selection {
-  background: #375B57;
+  background: #147efb;
+  color: #ffffff;
 }
 
 .navbar {
