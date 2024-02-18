@@ -429,16 +429,16 @@ span a {
   height: 400px;
   background: #ffffff;
   background-position: top;
+  border-radius: 18px;
   transition: ease-in-out 8s;
 }
 
 #projects .container .content-container .card .image-container .box.box1 {
-background: url(lock.jpg); 
+background: url(images/lock.jpg); 
 background-size: cover; 
-z-index: 8;
 }
 
-#projects .container .content-container .card .image-container .box {
+#projects .container .content-container .card .image-container .box:hover {
   background-position: bottom;
 }
 
