@@ -10,16 +10,3 @@ cancelBtn.onclick = () => {
   menuBtn.classList.remove("hide");
 };
 
-const imageContainers = document.querySelectorAll(
-  "#projects .container .content-container .card .image-container"
-);
-
-imageContainers.forEach((container) => {
-  const img = container.querySelector("img");
-  container.addEventListener("mouseenter", () => {
-    img.style.transform = "translateY(-100%)";
-  });
-  container.addEventListener("mouseleave", () => {
-    img.style.transform = "translateY(0)";
-  });
-});
