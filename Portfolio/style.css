@@ -114,6 +114,21 @@ body {
     gap: 3rem;
   }
 
+  .profile-pic {
+    width: 28rem;
+    height: 28rem;
+  }
+
+  #header .landing-main {
+    flex-direction: column-reverse;
+  }
+
+  .image-container {
+    margin-bottom: 20px;
+  }
+
+  
+
 
   span.iconsContact {
     justify-content: center;
@@ -206,11 +221,11 @@ body {
 
 .image-container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   flex-grow: 1;
   flex-wrap: wrap;
-  margin: 80px 10px 0 100px;
+  margin: 80px 0 0 0;
   /* Remove any default margin */
 }
 
@@ -231,7 +246,6 @@ body {
 #header .landing-main {
   display: flex;
   align-items: center;
-  flex-direction: row;
   justify-content: space-between;
   /* Make sure the children elements are spaced evenly */
 }
