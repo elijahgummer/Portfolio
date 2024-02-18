@@ -125,6 +125,12 @@ body {
   margin: 15px;
 }
 
+.hand-text-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .github,
 .linkedin {
   color: #ffffff;
