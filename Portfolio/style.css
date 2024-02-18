@@ -348,6 +348,7 @@ span a {
   border-radius: 18px;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
   padding: 20px;
+  margin: 20px;
 }
 
 #projects .card h5 {
@@ -370,6 +371,7 @@ span a {
   justify-content: center;
   flex-direction: row;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 #projects .card .tech-stack ul li {
@@ -398,6 +400,7 @@ span a {
 #projects .container .content-container .card .image-container .box.box1 {
   background: url(images/lock.jpg);
   background-size: cover;
+  width: 60%;
 }
 
 #projects .container .content-container .card .image-container .box:hover {
