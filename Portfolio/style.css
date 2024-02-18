@@ -150,7 +150,7 @@ body {
   color: #147efb;
 }
 
-.image-container {
+#header .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -384,7 +384,7 @@ span a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 46%;
   margin: 20px;
 }
 
@@ -411,7 +411,7 @@ span a {
   color: white;
   text-align: center;
   margin: 20px;
-  width: 46%;
+  width: 60%;
 }
 
 #projects .container .card .teck-stack {
