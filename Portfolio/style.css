@@ -719,6 +719,7 @@ span a {
     width: 90%;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
 
   #projects .container .content-container .card  {
