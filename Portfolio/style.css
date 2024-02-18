@@ -707,6 +707,13 @@ span a {
 
     /* PROJECTS RESPONSIVNESS */
 
+    #projects .container {
+      width: 100%;
+    }
+    
+    #projects .sub-header {
+      width: 70%;
+    }
 
     
 }
