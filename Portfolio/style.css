@@ -250,15 +250,13 @@ span a {
 }
 
 #header .tech-stack-header {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 17px;
   font-weight: 600;
   margin-right: 40px;
   margin-left: 0;
   color: #f9f9f9;
 }
-
-
 
 /* ABOUT PAGE STYLING */
 
@@ -659,7 +657,7 @@ span a {
     flex-direction: column;
   }
 
-  #header .stack-container{
+  #header .stack-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -678,42 +676,65 @@ span a {
     padding-bottom: 1rem;
   }
 
-  
+  /*ABOUT RESPONSIVE CODE */
 
-    /*ABOUT RESPONSIVE CODE */
+  #about .user-image {
+    width: 90%;
+    height: auto;
+  }
 
-    #about .user-image {
-      width: 90%;
-      height: auto;
-    }
+  #about .content-container {
+    flex-direction: column;
+  }
 
-    #about .content-container {
-      flex-direction: column;
-    }
+  #about .content-container .content-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 35rem;
+  }
 
-    #about .content-container .content-box {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      text-align: center;
-      max-width: 35rem;
-    }
+  #about .container {
+    height: auto;
+  }
 
-    #about .container {
-      height: auto;
-    }
+  /* PROJECTS RESPONSIVNESS */
+
+  #projects .container {
+    width: 100%;
+  }
+
+  #projects .sub-header {
+    text-align: center;
+    width: 70%;
+  }
+
+  #projects .card-container {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #projects .container .content-container .card  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+    height: auto;
+  }
+
+  #projects .container .content-container .card .content {
+    width: 90%;
+  }
+
+  #projects .container .content-container .card .image-container {
+    width: 90%;
+    height: 50%;
+  }
 
 
-    /* PROJECTS RESPONSIVNESS */
-
-    #projects .container {
-      width: 100%;
-    }
-    
-    #projects .sub-header {
-      width: 70%;
-    }
-
-    
 }
