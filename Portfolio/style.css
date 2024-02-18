@@ -400,7 +400,6 @@ span a {
 #projects .container .content-container .card .image-container .box.box1 {
   background: url(images/lock.jpg);
   background-size: cover;
-  width: 60%;
 }
 
 #projects .container .content-container .card .image-container .box:hover {
@@ -412,6 +411,7 @@ span a {
   color: white;
   text-align: center;
   margin: 20px;
+  width: 46%;
 }
 
 #projects .container .card .teck-stack {
