@@ -726,7 +726,7 @@ span a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     flex-direction: column;
     height: auto;
   }
@@ -739,6 +739,8 @@ span a {
     width: 90%;
     height: 50%;
   }
+
+  /* CONTACT RESPONSIVNESS */
 
 
 }
