@@ -305,8 +305,7 @@ span a {
 }
 
 #about .content-box {
-  margin: 45px;
-
+  margin: 45px 0 45px 0;
 }
 
 /* PROJECTS STYLING */
@@ -692,6 +691,7 @@ span a {
     #about .container {
       height: auto;
     }
+
 
 
   
