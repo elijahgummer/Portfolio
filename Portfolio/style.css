@@ -7,6 +7,7 @@
 
 body {
   background-color: #121212;
+  overflow-x: hidden;
 }
 
 /* Custom scroll bar */
@@ -304,7 +305,8 @@ span a {
 }
 
 #about .content-box {
-  margin-top: 45px;
+  margin: 45px;
+
 }
 
 /* PROJECTS STYLING */
@@ -582,8 +584,8 @@ span a {
   }
 
   .profile-pic {
-    width: 28rem;
-    height: 28rem;
+    width: 21rem;
+    height: 21rem;
   }
 
   #header .landing-main {
@@ -664,4 +666,33 @@ span a {
     padding-right: 0;
     padding-bottom: 1rem;
   }
+
+  
+
+    /*ABOUT RESPONSIVE CODE */
+
+    #about .user-image {
+      width: 90%;
+      height: auto;
+    }
+
+    #about .content-container {
+      flex-direction: column;
+    }
+
+    #about .content-container .content-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      max-width: 35rem;
+    }
+
+    #about .container {
+      height: auto;
+    }
+
+
+  
 }
