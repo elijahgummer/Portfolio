@@ -102,7 +102,11 @@ body {
 /* header Page */
 
 #header .container {
+  display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
 
 #header .header-text {
@@ -116,7 +120,7 @@ body {
 
 #header .head-text {
   font-size: 18px;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   color: #f9f9f9;
   margin: 15px;
 }
@@ -141,7 +145,7 @@ body {
 
 .github:hover,
 .linkedin:hover {
-  color: #375B57;
+  color: #375b57;
 }
 
 .image-container {
@@ -226,10 +230,9 @@ span a {
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-left: 15px;
-  /* Adjust the margin as needed */
   padding-left: 0;
-  /* Remove any left padding */
 }
 
 #header .stack-container p {
@@ -247,7 +250,6 @@ span a {
   font-weight: 600;
   margin-right: 40px;
   margin-left: 0;
-  /* Adjust the margin as needed */
   color: #f9f9f9;
 }
 
@@ -287,7 +289,7 @@ span a {
 #about .sub-header {
   color: #ffffff;
   font-size: 25px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 20px 20px 35px 20px;
   font-weight: 800;
   line-height: 1.4;
@@ -296,7 +298,7 @@ span a {
 #about .content,
 .sub-content {
   color: #767676;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 17px;
   margin: 20px 20px 35px 20px;
 }
@@ -321,7 +323,7 @@ span a {
 #projects .sub-header {
   color: #ffffff;
   font-size: 23px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 20px 20px 35px 20px;
   font-weight: 800;
   line-height: 1.4;
@@ -355,11 +357,10 @@ span a {
 }
 
 #projects .card p {
-  
-  color: #FFFFFF80;
+  color: #ffffff80;
   font-size: 17px;
   font-weight: 500;
-  margin: 10px
+  margin: 10px;
 }
 
 #projects .card .tech-stack ul {
@@ -375,7 +376,6 @@ span a {
   color: #f9f9f9;
   margin: 10px;
 }
-
 
 #projects .container .content-container .card .image-container {
   display: flex;
@@ -395,18 +395,15 @@ span a {
 }
 
 #projects .container .content-container .card .image-container .box.box1 {
-background: url(images/lock.jpg); 
-background-size: cover; 
+  background: url(images/lock.jpg);
+  background-size: cover;
 }
 
 #projects .container .content-container .card .image-container .box:hover {
   background-position: bottom;
 }
 
-
-
-
-#projects .container .content-container .card .content{
+#projects .container .content-container .card .content {
   flex: 1;
   color: white;
   text-align: center;
@@ -417,7 +414,7 @@ background-size: cover;
   display: flex;
   flex-direction: row;
   width: 50%;
-} 
+}
 
 #projects .container .card .demo-links ul {
   display: flex;
@@ -447,10 +444,6 @@ background-size: cover;
 #projects .container .card .demo-links ul li:hover {
   color: #147efb;
 }
-
-
-
-
 
 /* CONTACT AREA STYLING */
 
@@ -482,7 +475,7 @@ background-size: cover;
 #contact .sub-header {
   color: #ffffff;
   font-size: 25px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 20px 20px 35px 20px;
   font-weight: 800;
   line-height: 1.4;
@@ -526,7 +519,7 @@ background-size: cover;
 #contact .email-name,
 .location-name {
   color: #767676;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 500;
 }
@@ -574,14 +567,12 @@ background-size: cover;
   color: #147efb;
 }
 
-
 /* MOBILE RESPONSIVNESS */
 
 @media (max-width: 868px) {
   body.disabled {
     overflow: hidden;
   }
-
 
   .content {
     flex-direction: column;
@@ -607,6 +598,9 @@ background-size: cover;
     font-size: 40px;
   }
 
+  #header .header-text {
+    font-size: ;
+  }
 
   span.iconsContact {
     justify-content: center;
@@ -655,5 +649,19 @@ background-size: cover;
 
   .navbar.show .menu-list li a {
     margin-left: 0px;
+  }
+
+  #header .stack-container {
+    position: initial;
+    flex-direction: column;
+  }
+
+  #header .stack-container p {
+    margin-right: 0;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid rgba(45, 46, 50, 0.5);
+    border-right: none;
+    padding-right: 0;
+    padding-bottom: 1rem;
   }
 }
