@@ -111,7 +111,6 @@ body {
 
 #header .header-text {
   font-size: 55px;
-  display: block;
   font-weight: 800;
   margin: 15px;
   color: #ffffff;
@@ -176,7 +175,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* Make sure the children elements are spaced evenly */
 }
 
 #header .sub-content {
@@ -225,6 +223,10 @@ span a {
   transition: all ease-in-out 0.5s;
 }
 
+#header .tech-image:hover {
+  transform: translateY(-0.7rem);
+}
+
 #header .stack-container {
   display: flex;
   align-items: center;
@@ -253,9 +255,7 @@ span a {
   color: #f9f9f9;
 }
 
-#header .tech-image:hover {
-  transform: translateY(-0.7rem);
-}
+
 
 /* ABOUT PAGE STYLING */
 
@@ -598,10 +598,6 @@ span a {
     font-size: 40px;
   }
 
-  #header .header-text {
-    font-size: ;
-  }
-
   span.iconsContact {
     justify-content: center;
     margin-top: 2rem;
@@ -653,6 +649,10 @@ span a {
 
   #header .stack-container {
     position: initial;
+    flex-direction: column;
+  }
+
+  #header .tech-list {
     flex-direction: column;
   }
 
