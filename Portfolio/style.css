@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  transition: all ease-in-out 0.2s;
 }
 
 body {
@@ -141,11 +142,12 @@ body {
   font-size: 32px;
   transition: color 0.5s;
   margin: 5px;
+  transition: all ease-in-out 0.5s;
 }
 
 .github:hover,
 .linkedin:hover {
-  color: #375b57;
+  color: #147efb;
 }
 
 .image-container {
