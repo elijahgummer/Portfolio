@@ -769,4 +769,15 @@ span a {
     margin: 5px;
   }
 
+  /* FOOTER RESPONSIVNESS */
+  .footer {
+    padding: 20px 0px 20px 0px;
+  }
+
+  .footer .container .footer-container {
+    flex-direction: column;
+    text-align: center;
+    margin: 15px;
+  }
+
 }
