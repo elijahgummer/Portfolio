@@ -282,7 +282,7 @@ span a {
 #about .image-container {
   position: relative;
   width: 100%;
-  height: 425px;
+  height: auto;
   display: flex;
   justify-content: center;
   -ms-align-items: center;
@@ -296,7 +296,7 @@ span a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 20px 50px 20px;
+  padding: 40px 15px 40px 15px;
 }
 
 #about .image-container::before {
@@ -328,10 +328,9 @@ span a {
 }
 
 #about .container .content-container .image-container .box .user-image {
-  width: 100%;
-  height: 350px;
+  width: 90%;
+  height: 90%;
   border-radius: 17px;
-  margin: 35px;
   position: relative;
   z-index: 3;
 }
@@ -737,10 +736,21 @@ span a {
 
   /*ABOUT RESPONSIVE CODE */
 
-  #about .user-image {
+  #about .container .content-container .image-container .box .user-image {
     width: 90%;
+    height: 90%;
+  }
+
+  #about .image-container {
+    margin: 45px;
     height: auto;
   }
+
+  #about .box {
+    padding: 25px 15px 25px 15px;
+  }
+
+  
 
   #about .container .content-container {
     flex-direction: column;
