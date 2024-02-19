@@ -280,28 +280,27 @@ span a {
 }
 
 #about .image-container {
-    
-    position: relative;
-    width: 80%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    -ms-align-items: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 425px;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 #about .box {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px 50px 20px;
 }
 
 #about .image-container::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 190px;
   height: 800px;
@@ -311,7 +310,7 @@ span a {
 }
 
 #about .image-container::after {
-  content: '';
+  content: "";
   position: absolute;
   background: #0e1538;
   inset: 5px;
@@ -436,8 +435,6 @@ span a {
   color: #f9f9f9;
   margin: 10px;
 }
-
-
 
 #projects .container .content-container .card .image-container {
   display: flex;
@@ -781,7 +778,7 @@ span a {
     flex-direction: column;
   }
 
-  #projects .container .content-container .card  {
+  #projects .container .content-container .card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -808,7 +805,6 @@ span a {
     justify-content: center;
     text-align: center;
     height: auto;
-
   }
 
   #contact .contact-box {
@@ -834,5 +830,4 @@ span a {
     text-align: center;
     margin: 15px;
   }
-
 }
