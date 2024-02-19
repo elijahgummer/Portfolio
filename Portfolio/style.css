@@ -746,5 +746,11 @@ span a {
 
   /* CONTACT RESPONSIVNESS */
 
+  #contact .container .content-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
 
 }
