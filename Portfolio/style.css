@@ -33,7 +33,7 @@ body {
   font-size: 1.7rem;
   width: 100%;
   height: auto;
-  padding: 25px 80px 25px 50px;
+  padding: 25px 40px 25px 30px;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -109,7 +109,16 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-top: 20px;
+}
+
+#header .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 85%;
 }
 
 #header .header-text {
@@ -118,24 +127,32 @@ body {
   margin: 15px;
   color: #ffffff;
   margin-top: 45px;
+  width: 100%;
 }
+
+#header .landing-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width:  50%;
+}
+
 
 #header .head-text {
   font-size: 18px;
   font-family: "Mulish", sans-serif;
   color: #f9f9f9;
-  margin: 15px;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
 }
 
 .iconsContact {
   margin: 15px;
+  width: 100%;
 }
 
-.hand-text-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .github,
 .linkedin {
@@ -157,13 +174,14 @@ body {
   align-items: center;
   flex-grow: 1;
   flex-wrap: wrap;
-  margin: 80px 0 0 0;
-  /* Remove any default margin */
+  margin: 80px 0 0 0; 
+  width: 50%;
 }
 
 .profile-pic {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  margin-left: 100px;
 }
 
 #header .container {
@@ -171,6 +189,7 @@ body {
   flex-direction: column;
   /* Ensure a column layout */
   align-items: center;
+  justify-content: center;
   /* Center content horizontally */
   margin-top: 20px;
 }
@@ -178,11 +197,8 @@ body {
 #header .landing-main {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-#header .sub-content {
-  display: flex;
+  justify-content: center;
+  width: 90%;
 }
 
 span {
@@ -208,10 +224,7 @@ span a {
   align-items: center;
 }
 
-.hand-text-content .header-text {
-  margin-right: 10px;
-  margin-bottom: 0;
-}
+
 
 #header .tech-list {
   display: flex;
@@ -643,6 +656,7 @@ span a {
   .profile-pic {
     width: 21rem;
     height: 21rem;
+    margin: 0;
   }
 
   #header .landing-main {
@@ -711,6 +725,10 @@ span a {
     flex-direction: column;
   }
 
+  #header .content {
+    margin: 0;
+  }
+
   #header .header-text {
     line-height: 1.5;
   }
@@ -734,6 +752,7 @@ span a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
   }
 
   #header .tech-image {
@@ -747,6 +766,14 @@ span a {
     border-right: none;
     padding-right: 0;
     padding-bottom: 1rem;
+  }
+
+  #header .landing-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 90%;
   }
 
   /*ABOUT RESPONSIVE CODE */
