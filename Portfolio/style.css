@@ -712,7 +712,13 @@ span a {
   }
 
   #header .header-text {
-    line-height: 1.0;
+    line-height: 1.5;
+  }
+
+  #header .content-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   #header .waving {
