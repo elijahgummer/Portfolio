@@ -711,6 +711,15 @@ span a {
     flex-direction: column;
   }
 
+  #header .header-text {
+    line-height: 1.0;
+  }
+
+  #header .waving {
+    width: 3rem;
+    height: 3rem;
+  }
+
   #header .tech-list {
     flex-direction: column;
   }
@@ -750,8 +759,6 @@ span a {
     padding: 25px 15px 25px 15px;
   }
 
-  
-
   #about .container .content-container {
     display: flex;
     align-items: center;
@@ -776,7 +783,7 @@ span a {
 
   #about .sub-header {
     width: 100%;
-    margin: 20px 0px  35px 0px;
+    margin: 20px 0px 35px 0px;
   }
 
   /* PROJECTS RESPONSIVNESS */
